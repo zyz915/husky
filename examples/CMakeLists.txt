@@ -50,16 +50,16 @@ target_link_libraries(WordCountMR ${HUSKY_EXTERNAL_LIB})
 husky_default_properties(WordCountMR)
 
 # WordCountMongo
-add_executable(WordCountMongo wc_mr_mongo.cpp)
-target_link_libraries(WordCountMongo ${husky})
-target_link_libraries(WordCountMongo ${HUSKY_EXTERNAL_LIB})
-husky_default_properties(WordCountMongo)
+# add_executable(WordCountMongo wc_mr_mongo.cpp)
+# target_link_libraries(WordCountMongo ${husky})
+# target_link_libraries(WordCountMongo ${HUSKY_EXTERNAL_LIB})
+# husky_default_properties(WordCountMongo)
 
 # WordCountFlume
-add_executable(WordCountFlume wc_mr_flume.cpp)
-target_link_libraries(WordCountFlume ${husky})
-target_link_libraries(WordCountFlume ${HUSKY_EXTERNAL_LIB})
-husky_default_properties(WordCountFlume)
+# add_executable(WordCountFlume wc_mr_flume.cpp)
+# target_link_libraries(WordCountFlume ${husky})
+# target_link_libraries(WordCountFlume ${HUSKY_EXTERNAL_LIB})
+# husky_default_properties(WordCountFlume)
 
 # PI
 add_executable(PI pi.cpp)
@@ -110,10 +110,10 @@ target_link_libraries(SVM ${HUSKY_EXTERNAL_LIB})
 husky_default_properties(SVM)
 
 # tf-idf
-add_executable(TF-IDF tfidf.cpp)
-target_link_libraries(TF-IDF ${husky})
-target_link_libraries(TF-IDF ${HUSKY_EXTERNAL_LIB})
-husky_default_properties(TF-IDF)
+# add_executable(TF-IDF tfidf.cpp)
+# target_link_libraries(TF-IDF ${husky})
+# target_link_libraries(TF-IDF ${HUSKY_EXTERNAL_LIB})
+# husky_default_properties(TF-IDF)
 
 # Affinity matrix
 add_executable(AMAT affinity.cpp)
